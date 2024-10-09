@@ -7,10 +7,8 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
       <nav>
-        <RouterLink to="/">Books</RouterLink>
+        <RouterLink to="/">Books</RouterLink> <br>
         <RouterLink to="/ping">ping</RouterLink>
       </nav>
     </div>
